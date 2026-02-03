@@ -12,7 +12,16 @@ export function Footer() {
             <p className="text-sm text-muted-foreground">
               Wiebke Pleis-Schevel
             </p>
-            <p className="mt-1 text-sm text-muted-foreground">Friedrichsfehn</p>
+            <p className="mt-1 text-sm text-muted-foreground">
+              Dorfstraße 13, 26188 Edewecht
+            </p>
+          </div>
+
+          <div className="rounded-lg bg-muted/50 p-4 text-center md:text-left">
+            <p className="text-xs font-medium text-foreground">In Krisensituationen</p>
+            <p className="mt-1 text-xs text-muted-foreground">
+              Bitte wenden Sie sich an die zuständige Psychiatrie oder den Notruf: 112
+            </p>
           </div>
 
           <nav aria-label="Rechtliche Links">

@@ -6,7 +6,7 @@ import { Footer } from "@/components/footer";
 
 export const metadata: Metadata = {
   title: "Impressum | Psychotherapeutische Praxis Wiebke Pleis-Schevel",
-  description: "Impressum der Psychotherapeutischen Praxis Wiebke Pleis-Schevel in Friedrichsfehn.",
+  description: "Impressum der Psychotherapeutischen Praxis Wiebke Pleis-Schevel in Edewecht.",
 };
 
 export default function ImpressumPage() {
@@ -46,9 +46,9 @@ export default function ImpressumPage() {
               </h2>
               <div className="mt-4 space-y-1 text-muted-foreground">
                 <p>Wiebke Pleis-Schevel</p>
-                <p>Psychologische Psychotherapeutin</p>
-                <p>[Straße und Hausnummer]</p>
-                <p>[PLZ] Friedrichsfehn</p>
+                <p>Psychologische Psychotherapeutin (VT)</p>
+                <p>Dorfstraße 13</p>
+                <p>26188 Edewecht</p>
               </div>
             </section>
 
@@ -57,8 +57,8 @@ export default function ImpressumPage() {
                 Kontakt
               </h2>
               <div className="mt-4 space-y-1 text-muted-foreground">
-                <p>Telefon: [wird ergänzt]</p>
-                <p>E-Mail: praxis@pleis-schevel.de</p>
+                <p>Telefon: Folgt nach Eröffnung</p>
+                <p>E-Mail: Folgt nach Eröffnung</p>
               </div>
             </section>
 

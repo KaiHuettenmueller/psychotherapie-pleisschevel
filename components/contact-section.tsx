@@ -233,7 +233,7 @@ export function ContactSection() {
                 <div>
                   <p className="font-medium text-foreground">E-Mail</p>
                   <p className="text-muted-foreground">
-                    praxis@pleis-schevel.de
+                    Folgt nach Eröffnung
                   </p>
                 </div>
               </div>
@@ -255,7 +255,8 @@ export function ContactSection() {
                 <div>
                   <p className="font-medium text-foreground">Standort</p>
                   <p className="text-muted-foreground">
-                    Friedrichsfehn (bei Oldenburg)
+                    Dorfstraße 13<br />
+                    26188 Edewecht
                   </p>
                 </div>
               </div>
