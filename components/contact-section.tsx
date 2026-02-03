@@ -261,6 +261,21 @@ export function ContactSection() {
                 </div>
               </div>
             </div>
+
+            {/* Google Maps */}
+            <div className="mt-6 overflow-hidden rounded-lg border border-border">
+              <iframe
+                src="https://www.google.com/maps?q=Dorfstraße+13,+26188+Edewecht,+Germany&output=embed"
+                width="100%"
+                height="200"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Standort der Praxis"
+                className="grayscale hover:grayscale-0 transition-all duration-300"
+              />
+            </div>
           </div>
         </div>
       </div>
