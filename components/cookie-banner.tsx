@@ -30,10 +30,10 @@ export function CookieBanner() {
       <div className="mx-auto flex max-w-5xl flex-col gap-4 md:flex-row md:items-center md:justify-between">
         <div className="flex-1">
           <p className="text-sm text-foreground">
-            Wir nutzen Google Analytics, um zu verstehen, wie Besucher unsere Website nutzen.
+            Diese Website verwendet Cookies zur Analyse der Websitenutzung.
           </p>
           <p className="mt-1 text-xs text-muted-foreground">
-            Dabei werden Daten wie Seitenaufrufe, Verweildauer und Herkunft erfasst und an Google übermittelt. Weitere Informationen finden Sie in unserer{" "}
+            Mehr dazu in unserer{" "}
             <a
               href="/datenschutz"
               className="text-primary underline underline-offset-4 hover:text-primary/80"
