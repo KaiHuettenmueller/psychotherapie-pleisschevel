@@ -1,4 +1,4 @@
-import { User } from "lucide-react";
+import Image from "next/image";
 
 export function AboutSection() {
   return (
@@ -7,12 +7,16 @@ export function AboutSection() {
         <div className="grid gap-12 md:grid-cols-3 md:gap-16">
           {/* Portrait Placeholder */}
           <div className="flex justify-center md:justify-start">
-            <div className="flex h-48 w-48 items-center justify-center rounded-full bg-muted">
-              <User
-                className="h-20 w-20 text-muted-foreground/50"
-                aria-hidden="true"
+            <div className="relative h-48 w-48 overflow-hidden rounded-full bg-muted">
+              <Image
+                src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=400&auto=format&fit=crop"
+                alt="Platzhalter für Portraitfoto"
+                fill
+                className="object-cover"
               />
-              <span className="sr-only">Portraitfoto folgt nach Eröffnung</span>
+              <div className="absolute inset-0 flex items-center justify-center bg-background/60">
+                <span className="text-xs font-medium text-muted-foreground">Foto folgt</span>
+              </div>
             </div>
           </div>
 
