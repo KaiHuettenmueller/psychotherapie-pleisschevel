@@ -190,15 +190,8 @@ export function ContactSection() {
                   aria-invalid={!!errors.privacy}
                   aria-describedby={errors.privacy ? "privacy-error" : undefined}
                 />
-                <Label htmlFor="privacy" className="text-sm leading-relaxed">
-                  Ich habe die{" "}
-                  <Link
-                    href="/datenschutz"
-                    className="text-primary underline underline-offset-4 hover:text-primary/80"
-                  >
-                    Datenschutzhinweise
-                  </Link>{" "}
-                  gelesen und stimme der Verarbeitung meiner Daten zu.
+                <Label htmlFor="privacy" className="text-sm leading-relaxed cursor-pointer">
+                  Ich habe die <Link href="/datenschutz" className="text-primary underline underline-offset-4 hover:text-primary/80">Datenschutzhinweise</Link> gelesen und stimme der Verarbeitung meiner Daten zu.
                 </Label>
               </div>
               {errors.privacy && (

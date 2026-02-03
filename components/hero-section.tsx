@@ -19,7 +19,7 @@ export function HeroSection() {
       <div className="mx-auto max-w-5xl px-4 md:px-6">
         <div className="mx-auto max-w-2xl text-center">
           <h1 className="text-balance font-serif text-3xl font-medium leading-tight tracking-tight text-foreground md:text-4xl lg:text-5xl">
-            Psychotherapeutische Praxis eröffnet ab März 2026 in Edewecht
+            Psychotherapeutische Praxis eröffnet ab April 2026 in Edewecht
           </h1>
           <p className="mt-6 text-pretty text-lg leading-relaxed text-muted-foreground md:text-xl">
             Verhaltenstherapie für Erwachsene – evidenzbasiert und individuell

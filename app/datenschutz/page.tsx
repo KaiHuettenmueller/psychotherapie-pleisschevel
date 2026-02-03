@@ -6,7 +6,7 @@ import { Footer } from "@/components/footer";
 
 export const metadata: Metadata = {
   title: "Datenschutz | Psychotherapeutische Praxis Wiebke Pleis-Schevel",
-  description: "Datenschutzerklärung der Psychotherapeutischen Praxis Wiebke Pleis-Schevel in Friedrichsfehn.",
+  description: "Datenschutzerklärung der Psychotherapeutischen Praxis Wiebke Pleis-Schevel in Edewecht.",
 };
 
 export default function DatenschutzPage() {
@@ -76,9 +76,10 @@ export default function DatenschutzPage() {
               </h2>
               <div className="mt-4 space-y-1 text-muted-foreground">
                 <p>Wiebke Pleis-Schevel</p>
-                <p>[Straße und Hausnummer]</p>
-                <p>[PLZ] Friedrichsfehn</p>
-                <p className="mt-4">E-Mail: praxis@pleis-schevel.de</p>
+                <p>Psychologische Psychotherapeutin (VT)</p>
+                <p>Dorfstraße 13</p>
+                <p>26188 Edewecht</p>
+                <p className="mt-4">E-Mail: Folgt nach Eröffnung</p>
               </div>
             </section>
 
