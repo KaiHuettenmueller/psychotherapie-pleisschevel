@@ -1,7 +1,8 @@
 import React from "react"
 import type { Metadata } from "next";
 import { Source_Sans_3, Lora } from "next/font/google";
-import { Analytics } from "@vercel/analytics/next";
+import { CookieBanner } from "@/components/cookie-banner";
+import { GoogleAnalytics } from "@/components/google-analytics";
 import "./globals.css";
 
 const _sourceSans = Source_Sans_3({ subsets: ["latin"] });
@@ -47,7 +48,8 @@ export default function RootLayout({
     <html lang="de">
       <body className="font-sans antialiased">
         {children}
-        <Analytics />
+        <GoogleAnalytics />
+        <CookieBanner />
       </body>
     </html>
   );

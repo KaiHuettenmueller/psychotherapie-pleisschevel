@@ -137,7 +137,46 @@ export default function DatenschutzPage() {
 
             <section>
               <h2 className="font-serif text-xl font-medium text-foreground">
-                5. Hosting
+                5. Google Analytics
+              </h2>
+              <div className="mt-4 text-muted-foreground">
+                <p>
+                  Diese Website nutzt Google Analytics 4, einen Webanalysedienst der
+                  Google Ireland Limited („Google"), Gordon House, Barrow Street,
+                  Dublin 4, Irland. Google Analytics verwendet Cookies und ähnliche
+                  Technologien, um Ihre Nutzung der Website zu analysieren.
+                </p>
+                <p className="mt-4">
+                  Die durch das Cookie erzeugten Informationen über Ihre Benutzung
+                  dieser Website werden in der Regel an einen Server von Google in
+                  den USA übertragen und dort gespeichert. Wir haben die
+                  IP-Anonymisierung aktiviert, sodass Ihre IP-Adresse von Google
+                  innerhalb der EU gekürzt wird.
+                </p>
+                <p className="mt-4">
+                  <strong>Rechtsgrundlage:</strong> Die Datenverarbeitung erfolgt nur
+                  nach Ihrer ausdrücklichen Einwilligung gemäß Art. 6 Abs. 1 lit. a
+                  DSGVO über den Cookie-Banner. Sie können Ihre Einwilligung jederzeit
+                  widerrufen, indem Sie die Cookies in Ihrem Browser löschen.
+                </p>
+                <p className="mt-4">
+                  Weitere Informationen finden Sie in der Datenschutzerklärung von Google:
+                  {" "}
+                  <a
+                    href="https://policies.google.com/privacy"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary underline underline-offset-4 hover:text-primary/80"
+                  >
+                    policies.google.com/privacy
+                  </a>
+                </p>
+              </div>
+            </section>
+
+            <section>
+              <h2 className="font-serif text-xl font-medium text-foreground">
+                6. Hosting
               </h2>
               <div className="mt-4 text-muted-foreground">
                 <p>
@@ -154,7 +193,7 @@ export default function DatenschutzPage() {
 
             <section>
               <h2 className="font-serif text-xl font-medium text-foreground">
-                6. SSL- bzw. TLS-Verschlüsselung
+                7. SSL- bzw. TLS-Verschlüsselung
               </h2>
               <div className="mt-4 text-muted-foreground">
                 <p>
@@ -171,7 +210,7 @@ export default function DatenschutzPage() {
 
             <section>
               <h2 className="font-serif text-xl font-medium text-foreground">
-                7. Aktualität und Änderung dieser Datenschutzerklärung
+                8. Aktualität und Änderung dieser Datenschutzerklärung
               </h2>
               <div className="mt-4 text-muted-foreground">
                 <p>
